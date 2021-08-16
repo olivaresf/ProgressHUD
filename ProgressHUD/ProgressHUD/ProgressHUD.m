@@ -68,10 +68,7 @@
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 {
 	dispatch_async(dispatch_get_main_queue(), ^{
-        UIImage *successImage = [UIImage imageNamed:@"ProgressHUD.bundle/progresshud-success.png"
-                                           inBundle:[NSBundle bundleForClass:[ProgressHUD class]]
-                      compatibleWithTraitCollection:nil];
-		[[self shared] hudCreate:nil image:successImage spin:NO hide:YES interaction:YES];
+		[[self shared] hudCreate:nil image:HUD_IMAGE_SUCCESS spin:NO hide:YES interaction:YES];
 	});
 }
 
