@@ -19,7 +19,7 @@
 #define HUD_BACKGROUND_COLOR	[UIColor colorWithWhite:0.0 alpha:0.1]
 #define HUD_WINDOW_COLOR		[UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.2]
 
-#define PROGRESS_HUD_BUNDLE     [NSBundle bundleForClass:[ProgressHUD class]]
+#define PROGRESS_HUD_BUNDLE		[NSBundle bundleForClass:[ProgressHUD class]]
 
 #define HUD_IMAGE_SUCCESS		[UIImage imageNamed:@"ProgressHUD.bundle/progresshud-success.png" inBundle:PROGRESS_HUD_BUNDLE compatibleWithTraitCollection:nil]
 #define HUD_IMAGE_ERROR			[UIImage imageNamed:@"ProgressHUD.bundle/progresshud-error.png" inBundle:PROGRESS_HUD_BUNDLE compatibleWithTraitCollection:nil]
